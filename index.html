@@ -10,7 +10,7 @@
 
   <body>
     <header class="header">
-      <img src="/img/logo-img.jpg" alt="Logo Luciano" class="header__logo">
+      <img src="./img/logo-img.jpg" alt="Logo Luciano" class="logo">
       <div class="header__menu-button">
         <div class="header__menu-div line-1"></div>
         <div class="header__menu-div line-2"></div>
@@ -20,17 +20,90 @@
 
     <main class="seccion-principal">
       <h1 class="seccion-principal__titulo-bienvenida">Bienvenidxs a mi site</h1>
-      <img src="/img/imagen-personal.jpg" alt="Luciano Riente Imagen Personal" class="seccion-principal__foto-personal">
+      <img src="./img/imagen-personal.jpg" alt="Luciano Riente Imagen Personal"
+        class="seccion-principal__foto-personal">
     </main>
 
     <section class="presentacion">
-      <h1 class="presentacion__titulo">Soy Lucho</h1>
+      <h2 class="titulo-seccion">Soy Lucho</h2>
       <p class="presentacion__parrafo-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
         blanditiis repellendus quaerat est unde
         repudiandae tenetur vero ex. Commodi laborum inventore illo eveniet nemo. Exercitationem sed ab quidem eligendi
         odio! </p>
-      <img src="/img/sight-to-cellphone.svg" alt="Logo persona mirando el celular" class="presentacion__logo">
+      <img src="./img/sight-to-cellphone.svg" alt="Logo persona mirando el celular" class="presentacion__logo">
     </section>
+
+    <section class="mis-servicios">
+      <h2 class="titulo-seccion">Mis servicios</h2>
+      <div class="mis-servicios__contenedor-general-servicios">
+        <div class="mis-servicios__contenedor-servicio">
+          <img src="./img/computer.png" alt="Computadora" class="mis-servicios__computer">
+          <h3 class="mis-servicios__titulo-servicio">Hago Cosas</h3>
+          <p class="mis-servicios__descripcion-servicio">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+            consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+            tristique.</p>
+        </div>
+        <div class="mis-servicios__contenedor-servicio">
+          <img src="./img/computer.png" alt="Computadora" class="mis-servicios__computer">
+          <h3 class="mis-servicios__titulo-servicio">Y más Cosas</h3>
+          <p class="mis-servicios__descripcion-servicio">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+            consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+            tristique.</p>
+        </div>
+        <div class="mis-servicios__contenedor-servicio">
+          <img src="./img/computer.png" alt="Computadora" class="mis-servicios__computer">
+          <h3 class="mis-servicios__titulo-servicio">Y también otras cosas</h3>
+          <p class="mis-servicios__descripcion-servicio">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+            consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere
+            tristique.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto">
+      <h2 class="titulo-seccion">Escribime</h2>
+      <form class="formulario">
+        <div class="formulario__fieldset">
+          <label for="Nombre" class="formulario__label-nombre">NOMBRE</label>
+          <input type="text" id="Nombre" class="formulario__nombre">
+        </div>
+        <div class="formulario__fieldset">
+          <label for="Email" class="formulario__label-email">EMAIL</label>
+          <input type="email" id="Email" class="formulario__email">
+        </div>
+        <div class="formulario__fieldset">
+          <label for="Mensaje" class="formulario__label-mensaje">Mensaje</label>
+          <textarea type="textarea" id="Mensaje" class="formulario__textarea"></textarea>
+        </div>
+        <div class="formulario__boton-envio">
+          <button class="formulario__btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__contenedor-autor">
+        <img src="./img/logo-img.jpg" alt="Logo Luciano" class="logo">
+        <p class="parrafo-autor">© 2024 Lucho</p>
+      </div>
+      <div class="footer__contenedor-social-media">
+        <div class="footer__social-media">
+          <img src="./img/instagram.png" alt="" class="social-media-icon">
+          <span class="social-media-name">Instagram</span>
+        </div>
+        <div class="footer__social-media">
+          <img src="./img/linkedin.png" alt="" class="social-media-icon">
+          <span class="social-media-name">LinkedIn</span>
+        </div>
+        <div class="footer__social-media">
+          <img src="./img/github.png" alt="" class="social-media-icon">
+          <span class="social-media-name">Github</span>
+        </div>
+      </div>
+    </footer>
   </body>
 
 </html>
