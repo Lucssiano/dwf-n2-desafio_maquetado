@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Block */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.header__logo {
+	width: 120px;
+	height: 55px;
+}
+.header__menu-div {
+	height: 5px;
+	width: 30px;
+	margin: 3px 0;
+	background-color: #000;
+}
+
+/* Seccion principal Block */
+.seccion-principal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.seccion-principal__titulo-bienvenida {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 100%;
+	letter-spacing: -1px;
+}
+.seccion-principal__foto-personal {
+	width: 250px;
+	height: 300px;
+}
+
+/* Presentacion Block */
+.presentacion {
+	background-color: #141414;
+	color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center;
+	align-items: center; */
+}
+.presentacion__titulo {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 45px 0;
+}
+.presentacion__parrafo-descripcion {
+	text-align: left;
+	padding: 0 30px;
+	margin: 0;
+}
+.presentacion__logo {
+	width: 100px;
+	height: 100px;
+	margin: 30px auto;
+}
