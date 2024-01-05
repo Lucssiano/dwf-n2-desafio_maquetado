@@ -166,15 +166,20 @@ body {
 .parrafo-autor {
 	margin: 0;
 }
-.footer__contenedor-social-media {
-	display: flex;
-	flex-direction: column;
-}
-/* .footer__social-media {
+/* .footer__contenedor-social-media {
 } */
+.footer__social-media-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #2c2c2c;
+	/* Puse el width para poder poner los links y que no se aprete el link si apreto afuera, no se me ocurre una mejor forma */
+	width: 115px;
+}
 .social-media-icon {
 	width: 27px;
 	height: 27px;
+	margin: 15px 5px;
 }
 .social-media-name {
 	font-family: 'Roboto', sans-serif;
